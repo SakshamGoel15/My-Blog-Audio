@@ -1,0 +1,248 @@
+/*!
+Theme Name: Aarambha Blogger
+Theme URI: https://aarambhathemes.com/themes/aarambha-blogger/
+Author: Aarambha Themes
+Author URI: https://aarambhathemes.com
+Description: Aarambha Blogger is the child theme of the perfect WordPress blog theme: Blog Aarambha. This can be used for any category starting from a simple personal blog to a multi-author blog. No matter where you use it, it provides you with lots of efficient features that help to place your website out of the box. To meet the time-to-time updates and current trends of WordPress core, themes, plugins, or other third-party libraries, developers provide with regular updates. Moreover, we provide the on-time solution for any issues along with 24*7 live support to our customers.
+Version: 1.0.0
+Requires PHP: 7.0
+Tested up to: 5.8
+License: GNU General Public License v3 or later
+License URI: https://www.gnu.org/licenses/gpl-3.0.html
+Text Domain: aarambha-blogger
+Template: blog-aarambha
+Tags: custom-logo, custom-menu, featured-images, custom-background, threaded-comments, translation-ready, blog, grid-layout, photography, one-column, two-columns, right-sidebar, custom-header, flexible-header, theme-options , e-commerce , footer-widgets
+
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned with others.
+
+Aarambha Blogger is a child theme of Blog Aarambha WordPress Theme, Copyright (C) 2021, Aarambha Themes
+Aarambha Blogger is distributed under the terms of the GNU GPL
+
+Normalizing styles have been helped along thanks to the fine work of
+Nicolas Gallagher and Jonathan Neal https://necolas.github.io/normalize.css/
+*/
+
+/* Text meant only for screen readers. */
+.screen-reader-text {
+    border: 0;
+    clip: rect(1px, 1px, 1px, 1px);
+    clip-path: inset(50%);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute !important;
+    width: 1px;
+    word-wrap: normal !important; /* Many screen reader and browser combinations announce broken words as they would appear visually. */
+}
+
+.screen-reader-text:focus {
+    background-color: #eee;
+    clip: auto !important;
+    clip-path: none;
+    color: #444;
+    display: block;
+    font-size: 1em;
+    height: auto;
+    left: 5px;
+    line-height: normal;
+    padding: 15px 23px 14px;
+    text-decoration: none;
+    top: 5px;
+    width: auto;
+    z-index: 100000;
+    /* Above WP toolbar. */
+}
+*, *:before, *:after {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+html{
+    font-size: 100%!important;
+}
+h1, h2, h3, h4, h5, h6,
+.entry-title,
+.site-title,
+.widget-title,
+.comment-title,
+.comment-reply-title,
+.wp-block-search__label,
+#secondary .widget_block .wp-block-group__inner-container h2,
+#secondary .wp-block-search .wp-block-search__label{
+    font-family: 'Cormorant Garamond', sans-serif;
+    font-size: 1.75rem;
+    font-weight: 700;
+    line-height: 1.4;
+}
+.home .section-left.section-full-width {
+    width: 100%;
+}
+.quote-section.box {
+    max-width: 100%;
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-top: 95px;
+}
+
+.site-header .hgroup-wrap .logo-layout-top {
+    width: 100%;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+.site-header .hgroup-wrap .logo-layout-top .left-menu {
+    text-align: center;
+    width: 100%;
+}
+.has-post-thumbnail .post-content-outer {
+    width: 90%;
+    margin: -50px auto 0px;
+    padding: 15px;
+    background: #fff;
+    position: relative;
+    box-shadow: 0px 0px 6px 1px rgba(0,0,0,0.2);
+}
+.hgroup-wrap .left-menu ul > li > a::before,
+.hgroup-wrap .right-menu ul > li > a::before,
+.hgroup-wrap .left-menu ul > li > a::after,
+.hgroup-wrap .right-menu ul > li > a::after {
+    position: absolute;
+}
+.hgroup-wrap .left-menu ul > li > a:hover::before,
+.hgroup-wrap .right-menu ul > li > a:hover::before,
+.hgroup-wrap .left-menu ul > li > a:hover::after,
+.hgroup-wrap .right-menu ul > li > a:hover::after,
+.hgroup-wrap .left-menu ul > li.current-menu-item > a::before,
+.hgroup-wrap .right-menu ul > li.current-menu-item > a::before,
+.hgroup-wrap .left-menu ul > li.current-menu-item > a::after,
+.hgroup-wrap .right-menu ul > li.current-menu-item > a::after {
+    -webkit-transform: translateX(-5px);
+    -moz-transform: translateX(-5px);
+    transform: translateX(-5px);
+}
+.hgroup-wrap .left-menu ul li li,
+.hgroup-wrap .right-menu ul li li{
+    margin-bottom: 0
+}
+
+.widget_search form {
+    text-align: left;
+}
+.widget_search .wp-block-search input[type="search"] {
+    padding-right: 15px;
+    padding-left: 15px;
+}
+#secondary .widget_block {
+    border-width: 1px ;
+    border-style: solid;
+    text-align: center;
+    position: relative;
+    padding: 30px;
+    border-color: #dcdcdc;
+}
+#secondary .widget_block .wp-block-group__inner-container h2,
+#secondary .wp-block-search .wp-block-search__label {
+    font-size: 25px;
+    margin: 0 0 22px;
+    font-weight: 400;
+    text-transform: uppercase;
+    color: #111111;
+    display: block;
+    text-align: center;
+}
+.main-slider {
+    padding: 15px;
+    border: 1px solid #dcdcdc;;
+    margin-top: 90px;
+}
+#secondary .widget ul.wp-block-categories-list li:nth-of-type(2n+1) ,
+#secondary .widget ul.wp-block-archives-list li:nth-of-type(2n+1) {
+    background-color: #f4f3f3;
+}
+#secondary .widget ul.wp-block-categories-list li,
+#secondary .widget ul.wp-block-archives-list li{
+    font-size: 18px;
+    padding: 17px;
+}
+#secondary .widget ul.wp-block-categories-list li a,
+#secondary .widget ul.wp-block-archives-list li a{
+    color: #818181
+}
+#secondary .widget ul.wp-block-categories-list li a:hover,
+#secondary .widget ul.wp-block-archives-list li a:hover{
+    color: #111111
+}
+.quote-section.box {
+    margin-left: 0;
+    margin-right: 0;
+    padding: 0;
+    background: #fff;
+}
+.quote-wrap {
+    max-width: 100%;
+}
+.quote-section h4.entry-title {
+    background: #fff;
+}
+.wp-block-calendar tbody td#today {
+    background: #DDD;
+    color: #000;
+}
+.site-branding {
+    margin-bottom: 20px;
+}
+.hgroup-wrap .left-menu .menu-item-has-children::after,
+.hgroup-wrap .right-menu .menu-item-has-children::after {
+    right: -1px;
+}
+
+@media only screen and (max-width: 1140px) {
+    .main-slider {
+        margin-top: 50px;
+    }
+    .quote-section.box {
+        margin-top: 50px;
+    }
+
+}
+
+@media only screen and (max-width: 768px) {
+    .main-slider {
+        margin-top: 30px;
+    }
+    .quote-section.box {
+        margin-top: 30px;
+    }
+    .site-branding {
+        margin-bottom: 12px;
+    }
+
+}
+
+
+@media only screen and (max-width: 640px) {
+    .branding-wrap, .brand-and-social-wrap {
+        width: 200px;
+    }
+    h1.site-title {
+        font-size: 24px;
+    }
+    .nav-links {
+        padding-right: 0;
+    }
+    .site-main .post-navigation {
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+
+}
