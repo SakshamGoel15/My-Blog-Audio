@@ -16,11 +16,11 @@ list.
 - Click on the add button to add new widgets on your WordPress website and search for Blog Audio or select Blog Audio which is found under the Widget section.
   - **outcome:-** : 
       ![alt text](https://github.com/SakshamGoel15/My-Blog-Audio/blob/main/images/Picture%202.png?raw=true)
-     <p align="center"> <strong>Figure 2:</strong> : Blog Audio Widget.</p>
+     <p align="center"> <strong>Figure 2:</strong> Blog Audio Widget.</p>
 - Click on the Blog Audio Widget.
   - **outcome:-** : 
       ![alt text](https://github.com/SakshamGoel15/My-Blog-Audio/blob/main/images/Picture%203.png?raw=true)
-     <p align="center"> <strong>Figure 3:</strong> : Backend UI of Widget.</p>
+     <p align="center"> <strong>Figure 3:</strong> Backend UI of Widget.</p>
 - You have to provide the blog post text inside the text input.
 - Then click on update and then go to website.
 -  Now check for Blog Audio Widget. Which looks like this:
@@ -28,4 +28,25 @@ list.
       <p align="center">
       <img src="https://github.com/SakshamGoel15/My-Blog-Audio/blob/main/images/Picture%204.png" />
       </p>
-      <p align="center"> <strong>Figure 4:</strong> : Front-end UI of Widget.</p>
+      <p align="center"> <strong>Figure 4:</strong> Front-end UI of Widget.</p>
+-  First button is for Play/Resume the Blog.
+   - **outcome:-** <br/>
+      <p align="center">
+      <img src="https://github.com/SakshamGoel15/My-Blog-Audio/blob/main/images/Picture%205.png" />
+      </p>
+      <p align="center"> <strong>Figure 5:</strong> Play/Resume button.</p>
+-   Second button is for Pause the Blog.
+    - **outcome:-** <br/>
+      <p align="center">
+      <img src="https://github.com/SakshamGoel15/My-Blog-Audio/blob/main/images/Picture%206.png" />
+      </p>
+      <p align="center"> <strong>Figure 6:</strong> Pause button.</p>
+-  Third button is for Stop the Blog
+   - **outcome:-** <br/>
+      <p align="center">
+      <img src="https://github.com/SakshamGoel15/My-Blog-Audio/blob/main/images/Picture%207.png" />
+      </p>
+      <p align="center"> <strong>Figure 7:</strong> stop button.</p>
+- **Note:-** If the Audio is Paused and play button is pressed, then audio start from where it was
+paused. But If the Audio is stop and play button is pressed, then audio start from
+Beginning. 
